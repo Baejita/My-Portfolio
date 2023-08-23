@@ -1,8 +1,15 @@
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #ff6200, #d9923b, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
+
+.gradient-background2 {
+  background: linear-gradient(300deg, #023059, #0056A2, whitesmoke);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
 
 @keyframes gradient-animation {
   0% {
@@ -26,3 +33,32 @@
   height: 100px;
   border-radius: 50%;
 }
+
+.selfie-photo { display: flex;
+  justify-content: center;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.section {color: whitesmoke;}
+
+.Baejita {color: #023059;}
+
+.education { display: flex;
+  justify-content: center;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.center {display: flex;
+justify-content: center;}
+
+.myskillphoto { display: flex;
+  justify-content: center;
+  width: 200px;
+  border-radius: 10%;
+}
+
+.photoheight {max-width: 100px;
+max-height: 500px;}
+
